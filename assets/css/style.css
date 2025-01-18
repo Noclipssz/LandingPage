@@ -22,24 +22,45 @@
 .spaceTop {
     margin-top: 13rem;
 }
-.home-text{
+
+.home-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--gap);
     justify-content: center;
 }
-.home-text-content{
+
+.home-text-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    grid-column: 1;
 }
 
-.home-img{     
+.home-img {
+    background-image: url(../img/undraw_static-assets_di5m.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 40rem;
+}
+
+.home-text-content h2 { 
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 5rem;
+}
+
+.trump-content h1{
+    text-align: center;
+}
+
+.trump-content{
+    max-width: 64rem;
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    grid-column: 2;
+    height: 100vh;
+    text-align: center;
 }
-
-

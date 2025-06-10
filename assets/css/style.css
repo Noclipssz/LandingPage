@@ -64,3 +64,14 @@
     height: 100vh;
     text-align: center;
 }
+.grid-content{ 
+    height: 100vh;
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
